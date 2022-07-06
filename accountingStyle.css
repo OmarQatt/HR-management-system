@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+   
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+.navbar ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background-color: #04243C;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+ }
+
+
+ .contact{
+    margin: 100px 0 0 0;
+    width: 100%;
+    background-image: url(footer.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;   
+}
+.contact h1{
+color: #04243C;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    border: 1px solid #04243C;
+    background: #04243C;
+    transition: 1s;
+}
