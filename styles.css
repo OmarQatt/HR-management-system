@@ -83,3 +83,52 @@ margin-bottom: 10px;
     background: #04243C;
     transition: 1s;
 }
+.stickyicon-list{
+    padding-top: 256%;
+}
+    .productHolder{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    
+    }
+
+.card{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 370px;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    transition: 0.3s;
+  
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color:rgb(60,143,135);
+}
+
+.cardText *{
+margin: 0.5rem;
+}
+.categoryText{
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.brandText{
+    color: #4287f5;
+}
+
+.priceText{
+    font-size: large;
+}
+
+.offerText{
+    font-size: small;
+}
